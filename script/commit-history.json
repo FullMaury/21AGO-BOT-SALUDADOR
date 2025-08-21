@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7fdcc36b16ffe0ddef3e2d5f613ca035c694fde5",
     "author": "FullMaury",
     "commit": {
       "date": "2025-08-21T13:46:08.000Z",
       "message": "saludoPorHora",
-      "url": "https://github.com/FullMaury/21AGO-BOT-SALUDADOR/commit/HEAD"
+      "url": "https://github.com/FullMaury/21AGO-BOT-SALUDADOR/commit/7fdcc36b16ffe0ddef3e2d5f613ca035c694fde5"
     },
     "stats": {
       "total": 10,
       "additions": 9,
       "deletions": 1,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "FullMaury",
+    "commit": {
+      "date": "2025-08-21T14:15:40.000Z",
+      "message": "agregando ingles y espanol",
+      "url": "https://github.com/FullMaury/21AGO-BOT-SALUDADOR/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 37,
+      "deletions": 6,
       "date": "2025-08-21"
     },
     "coverage": 100,
