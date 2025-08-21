@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Sumador</title>
+    <title>BOT SALUDADOR</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/app.js" defer></script>
   </head>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+    <main class="card">
+      <h1>BOT SALUDADOR</h1>
 
-    <script type="module" src="./src/presenter.js"></script>
+    <div class="row">
+      <label for="name">Nombre</label>
+      <input id="name" type="text" placeholder="escribe tu Nombre" >
+    </div>
+
+    <div class="row">
+      <label for="gender">Genero</label>
+      <select id="gender">
+        <option value="">(no especificar)</option>
+        <option value="f">Femenino</option>
+        <option value="m">Masculino</option>
+        <option value="x">Otro/Prefiero no decirlo</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label for="age">Edad</label>
+      <input id="age" type="number" min ="0" placeholder="Ej: 31">
+    </div>
+
+    <div class="row">
+      <label for="lang">Idioma</label>
+      <select id="lang">
+        <option value="es">Espanol</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+
+    <button id="btnGreet" type="button">saludar</button>
+
+    <output id="result" aria-live="polite"></output>
+    </main>
   </body>
 </html>
