@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f7d3c3089716902c7477b691d0254ee13ee7251d",
     "author": "FullMaury",
     "commit": {
       "date": "2025-08-21T13:32:06.000Z",
       "message": "saludo basico con boton para decir hola",
-      "url": "https://github.com/FullMaury/21AGO-BOT-SALUDADOR/commit/HEAD"
+      "url": "https://github.com/FullMaury/21AGO-BOT-SALUDADOR/commit/f7d3c3089716902c7477b691d0254ee13ee7251d"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "FullMaury",
+    "commit": {
+      "date": "2025-08-21T13:41:06.000Z",
+      "message": "subiendo el saludo por el nombre",
+      "url": "https://github.com/FullMaury/21AGO-BOT-SALUDADOR/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 4,
+      "deletions": 2,
       "date": "2025-08-21"
     },
     "coverage": 100,
